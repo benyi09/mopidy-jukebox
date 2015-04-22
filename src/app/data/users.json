@@ -1,0 +1,15 @@
+[
+    {
+        "id" : 1,
+        "gender" : "computer",
+        "name" : "computer",
+        "tracks" : []
+    }
+    , {
+        "id" : 2,
+        "gender" : "male",
+        "name" : "Benyi",
+        "tracks" : []
+    }
+
+]

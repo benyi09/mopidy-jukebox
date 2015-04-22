@@ -1,0 +1,14 @@
+<form ng-controller="userCtrl">
+    <label>
+        Name:
+        <input ng-model="user.name" type="text">
+    </label>
+    <label>
+        Gender:
+        <select ng-model="user.gender">
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+    </label>
+    <input ng-click="save(user.name,user.gender)" type="submit">
+</form>
