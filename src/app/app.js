@@ -1,5 +1,5 @@
 (function(){
-    var app = angular.module('thejukebox', ['users']);
+    var app = angular.module('thejukebox', ['users', 'panel']);
     app.controller('theJukeBoxController', ['$scope', 'User', function($scope, User){
         $scope.user = '';
         User.get().then(
